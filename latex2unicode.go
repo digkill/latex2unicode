@@ -1,4 +1,4 @@
-package latex2unicode
+package main
 
 import (
 	"regexp"
