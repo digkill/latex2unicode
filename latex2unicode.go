@@ -13,7 +13,7 @@ var latexToUnicode = map[string]string{
 	`pm`: "±", `sqrt`: "√", `int`: "∫", `sum`: "∑",
 	`prod`: "∏", `infty`: "∞", `rightarrow`: "→",
 	`leftarrow`: "←", `uparrow`: "↑", `downarrow`: "↓",
-	"\\[": "", "\\]": "", "\\(": "", "\\)": "",
+	"[": "", "]": "", "(": "", ")": "",
 }
 
 var superscripts = map[rune]rune{
